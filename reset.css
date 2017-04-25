@@ -1,3 +1,95 @@
+/* `XHTML, HTML4, HTML5 Reset
+----------------------------------------------------------------------------------------------------*/
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+dialog,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+font,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+hr,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+main,
+mark,
+menu,
+meter,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+progress,
+q,
+rp,
+rt,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video,
 xmp {
   border: 0;
   margin: 0;
@@ -9,6 +101,18 @@ html,
 body {
   height: 100%;
 }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
 section {
 /*
   Override the default (display: inline) for
@@ -19,6 +123,8 @@ section {
 */
   display: block;
 }
+
+b,
 strong {
 /*
   Makes browsers agree.
@@ -39,6 +145,7 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
+ol,
 ul {
   list-style: none;
 }
@@ -57,6 +164,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+th,
+td,
 caption {
   font-weight: normal;
   vertical-align: top;
