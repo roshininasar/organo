@@ -8,7 +8,7 @@ body {
 
 .main {
     margin-top: -10px;
-    background-color: white;
+    background-color: grey;
 }
 /* Header section */
 header {
@@ -91,13 +91,14 @@ p {
     padding-left: 120px;
 }
 /* h2 tag in 3_column section */
-.3_col h2 {
+.single {
   
     text-align: center;
     font-weight: bold;
     color: orange;
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    margin-left: 
 }
 /* style for all h3 tags */
 h3 {
@@ -116,12 +117,13 @@ footer {
     margin-top: 10px;
     height: 60px;
     background-color: #7FFFD4;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 /* styles for social buttons in footer section */
 .social{
     padding-top: 5px;
-    padding-left: 50px;
+    padding-left:50px;
+    padding-right: 10px;
 	color: white;
 }
 /* copy rights grid in footer section */
