@@ -103,26 +103,7 @@ p {
 h3 {
     margin-top: 7px;
 }
-/* style properties for signup section */
-.signup {
-    margin-top: 20px;
-    background-image: url("https://www.permaculture.co.uk/sites/default/files/styles/slideshow/public/images/open-pollinated-seed-sprouting.gif?itok=eTUl0MKK");
-    background-size: 940px 400px;
-    background-attachment: background;
-    background-repeat: no-repeat;
-    height: 400px;
-    color: white;
-}
-/* h2 tag in signup section */
-.signup h2 {
-    margin-top: 10px;
-    text-align: center;
-}
-/* signup button in signup section */
-#signup {
-    margin-left: 400px;
-    margin-top: 60px;
-}
+
 /* paragraph in signup section */
 #para {
     padding-left: 15px;
@@ -139,7 +120,7 @@ footer {
 }
 /* styles for social buttons in footer section */
 .social{
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 100px;
 	color: white;
 }
