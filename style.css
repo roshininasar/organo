@@ -139,3 +139,6 @@ footer {
     text-decoration: none;
     color: white;
 }
+article h2{
+    display: none;
+}
